@@ -1,0 +1,60 @@
+html, body, div, span, canvas { margin:0; padding:0; }
+#container {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: -o-linear-gradient(top, #000, #257eb7);
+    background: -ms-linear-gradient(top, #000, #257eb7);
+    background: -moz-linear-gradient(top, #000, #257eb7);
+    background: -webkit-linear-gradient(top, #000, #021522);
+    background: linear-gradient(top, #000, #257eb7);	   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#257eb7');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#257eb7')";
+}
+
+#pixie {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+body {
+    background-color: #213848 !important;
+}
+
+img.logo {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+img.disc {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.header {
+    width: 100%;
+    max-height: 500px;
+    font-family: sans-serif;
+    float: right;
+    text-align: right;
+    margin-right: 2%;
+    margin-block-end: 2.5%;
+}
+
+.text-center {
+    margin-block-end: 5%;
+}
+
+.md-form.mt-0 {
+    margin-block-end: 30px;
+}
+
+.container-fluid {
+    background-color: #082836;
+    font-family: sans-serif;
+    margin-block-end: 30px;
+    border: "1px solid #cecece";
+    border-block-color: black;
+}
