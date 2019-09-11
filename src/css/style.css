@@ -1,5 +1,6 @@
 html, body, div, span, canvas { margin:0; padding:0; }
-#container {
+
+#background {
     overflow: hidden;
     position: relative;
     height: 100%;
@@ -13,14 +14,18 @@ html, body, div, span, canvas { margin:0; padding:0; }
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#257eb7')";
 }
 
-#pixie {
-    z-index: 10;
+#container {
+    z-index: 1;
+    overflow: auto;
     position: absolute;
     top: 0;
     left: 0;
 }
-body {
-    background-color: #213848 !important;
+
+#pixie {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 img.logo {
@@ -52,7 +57,7 @@ img.disc {
 }
 
 .container-fluid {
-    background-color: #082836;
+    /* background-color: #082836; */
     font-family: sans-serif;
     margin-block-end: 30px;
     border: "1px solid #cecece";
