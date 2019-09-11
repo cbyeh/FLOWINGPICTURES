@@ -16,7 +16,8 @@ html, body, div, span, canvas { margin:0; padding:0; }
 
 #container {
     z-index: 1;
-    overflow: auto;
+    text-align: center;
+    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -44,22 +45,21 @@ img.disc {
     font-family: sans-serif;
     float: right;
     text-align: right;
-    margin-right: 2%;
-    margin-block-end: 2.5%;
+    margin-right: 1%;
+    margin-block-end: 1%;
 }
 
-.text-center {
-    margin-block-end: 5%;
+.logo {
+    margin-block-end: 3%;
 }
 
 .md-form.mt-0 {
-    margin-block-end: 30px;
+    margin-block-end: 3%;
 }
 
 .container-fluid {
-    /* background-color: #082836; */
     font-family: sans-serif;
-    margin-block-end: 30px;
+    margin-block-end: 3%;
     border: "1px solid #cecece";
     border-block-color: black;
 }
